@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Aurora dos Pássaros · Apartamentos 2 quartos com suíte no centro de Paulista</title>
+  <meta name="description" content="O último condomínio do Vila Aurora, o único bairro planejado no centro de Paulista-PE. 2 quartos com suíte, mais de 30 itens de lazer entregues equipados. Minha Casa Minha Vida. Fale agora no WhatsApp." />
+  <meta name="theme-color" content="#070c0e" />
+  <!-- Open Graph: aparece bonito quando o link é compartilhado no WhatsApp / Instagram -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aurora dos Pássaros · Último condomínio do Vila Aurora" />
+  <meta property="og:description" content="2 quartos com suíte, 30+ itens de lazer e um parque de 33 mil m² na porta de casa. Centro de Paulista-PE." />
+  <meta property="og:image" content="assets/hero-aerea.webp" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/hero-aerea.webp" />
+  <link rel="stylesheet" href="assets/app.css" />
+
+  <!-- =====================================================================
+       ⚙️  CONFIGURAÇÃO — É SÓ EDITAR AQUI
+       ===================================================================== -->
+  <script>
+    window.AURORA_CONFIG = {
+      // WhatsApp do corretor: DDI + DDD + número, só dígitos
+      whatsapp: '5581991957167',
+      corretorNome: 'Sérgio Bezerra',
+      corretorCargo: 'Corretor de imóveis · Wind+ Imobiliária',
+      creci: 'CRECI-PE 23.214',
+      instagram: '',                   // ex.: 'https://instagram.com/seuperfil'
+      fotoCorretor: '',                // ex.: 'assets/corretor.jpg' (vazio = iniciais)
+      horarioAtendimento: [8, 20],     // das 8h às 20h mostra "online agora"
+
+      // Rastreamento (deixe vazio o que não usar)
+      gtmId: '',                       // ex.: 'GTM-XXXXXXX'  ← recomendado
+      ga4Id: '',                       // ex.: 'G-XXXXXXXXXX' (só se NÃO usar GTM)
+      googleAdsConversion: '',         // ex.: 'AW-123456789/AbCdEfGh' (só se NÃO usar GTM)
+      metaPixelId: '',                 // ex.: '123456789012345' (anúncios do Instagram)
+
+      // Oferta (vazio = "sob consulta")
+      precoAPartir: '',                // ex.: 'R$ 199.990'
+      parcelaAPartir: '',              // ex.: 'R$ 750/mês'
+      unidadesRestantes: null,         // ex.: 23  → mostra barra de escassez
+      unidadesTotais: null,            // ex.: 480
+
+      // Vídeos: tipo 'youtube' | 'vimeo' | 'mp4'. O 1º é o principal.
+      // Sem vídeos, a seção mostra um tour animado com as imagens do book.
+      videos: [
+        // { tipo: 'youtube', id: 'dQw4w9WgXcQ', titulo: 'Tour completo pelo lazer', capa: 'assets/piscina-torres.webp' },
+        // { tipo: 'mp4', src: 'videos/decorado.mp4', titulo: 'Apartamento decorado', capa: 'assets/interior-1.webp' },
+        // { tipo: 'vimeo', id: '123456789', titulo: 'Vista aérea do bairro', capa: 'assets/aerea-bairro.webp' },
+      ],
+    };
+  </script>
+
+  <!-- Google Tag Manager / GA4 / Meta Pixel — carregados conforme a configuração acima -->
+  <script>
+    (function () {
+      var C = window.AURORA_CONFIG;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      gtag('js', new Date());
+      function load(src) { var s = document.createElement('script'); s.async = true; s.src = src; document.head.appendChild(s); }
+      if (C.gtmId) {
+        dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        load('https://www.googletagmanager.com/gtm.js?id=' + C.gtmId);
+      } else if (C.ga4Id || C.googleAdsConversion) {
+        load('https://www.googletagmanager.com/gtag/js?id=' + (C.ga4Id || C.googleAdsConversion.split('/')[0]));
+        if (C.ga4Id) gtag('config', C.ga4Id);
+        if (C.googleAdsConversion) gtag('config', C.googleAdsConversion.split('/')[0]);
+      }
+      if (C.metaPixelId) {
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', C.metaPixelId); fbq('track', 'PageView');
+      }
+    })();
+  </script>
+</head>
+
+<body class="grain relative">
+  <!-- Ícones reutilizáveis -->
+  <svg width="0" height="0" class="absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.82 14.13c-.25.69-1.44 1.32-1.98 1.37-.5.05-1.13.07-1.83-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.8-4.18-4.94-4.37-.14-.19-1.18-1.57-1.18-3s.75-2.13 1.02-2.42a1.07 1.07 0 0 1 .78-.36c.19 0 .39 0 .56.01.18.01.42-.07.66.5.25.59.84 2.04.91 2.19.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.45.29.15.46.12.63-.07.17-.19.73-.85.92-1.14.19-.29.39-.24.66-.15.27.1 1.71.81 2 .95.29.15.49.22.56.34.07.12.07.69-.18 1.37Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.52.85l10.4-6.5a1 1 0 0 0 0-1.7L9.52 4.65A1 1 0 0 0 8 5.5Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  </svg>
+
+  <!-- ================= PRELOADER ================= -->
+  <div id="loader" class="fixed inset-0 z-[100] grid place-items-center bg-ink-950">
+    <div class="flex flex-col items-center gap-5">
+      <svg width="120" height="120" viewBox="0 0 120 120" fill="none" stroke="#cfa55c" stroke-width="1.3">
+        <path d="M18 100 C 18 55, 45 30, 72 30 L 98 30 L 76 50" />
+        <circle cx="58" cy="44" r="6" />
+        <path d="M72 30 C 66 42, 72 58, 90 60 L 30 100" />
+        <line x1="28" y1="62" x2="56" y2="62" /><line x1="22" y1="72" x2="56" y2="72" /><line x1="19" y1="82" x2="54" y2="82" /><line x1="19" y1="92" x2="44" y2="92" />
+      </svg>
+      <div class="text-center">
+        <div class="font-display text-[26px] tracking-[.35em] text-sand-100">AURORA</div>
+        <div class="mt-1 text-[10px] font-bold tracking-[.45em] text-gold-400">DOS PÁSSAROS</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barra de progresso de leitura -->
+  <div id="progress" class="fixed left-0 top-0 z-[60] h-[2px] w-full origin-left scale-x-0 bg-gradient-to-r from-gold-300 via-gold-500 to-emer-400"></div>
+
+  <!-- ================= HEADER / MICRO-BARRA ================= -->
+  <header id="topbar" class="fixed inset-x-0 top-0 z-50 transition-all duration-500">
+    <div class="wrap flex items-center justify-between gap-3 py-3">
+      <a href="#topo" class="flex items-center gap-2.5" aria-label="Aurora dos Pássaros — início">
+        <svg width="26" height="26" viewBox="0 0 120 120" fill="none" stroke="#dfbf7e" stroke-width="5"><path d="M18 100 C 18 55, 45 30, 72 30 L 98 30 L 76 50"/><circle cx="58" cy="44" r="6"/><path d="M72 30 C 66 42, 72 58, 90 60 L 30 100"/></svg>
+        <span class="leading-none">
+          <span class="block font-display text-[15px] tracking-[.28em]">AURORA</span>
+          <span class="block text-[8.5px] font-bold tracking-[.38em] text-gold-400">DOS PÁSSAROS</span>
+        </span>
+      </a>
+      <div class="glass flex items-center gap-2 rounded-full py-1.5 pl-3 pr-1.5">
+        <span class="pulse-dot"></span>
+        <span id="statusTxt" class="hidden text-[12px] font-semibold text-sand-200/80 sm:inline">Atendimento online agora</span>
+        <span class="text-[12px] font-semibold text-sand-200/80 sm:hidden">Online</span>
+        <a href="#" data-wa="header" data-msg="Olá! Vi o Aurora dos Pássaros e quero saber valores e condições." class="ml-1 inline-flex items-center gap-1.5 rounded-full bg-emer-500 px-3 py-1.5 text-[12px] font-bold text-ink-950 transition hover:bg-emer-400">
+          <svg class="h-4 w-4"><use href="#i-wa"/></svg> WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="topo">
+    <!-- ================= HERO ================= -->
+    <section class="relative flex min-h-[100svh] items-end overflow-hidden">
+      <div class="absolute inset-0">
+        <img src="assets/hero-aerea.webp" alt="Vista aérea do bairro planejado Vila Aurora com o Aurora dos Pássaros em destaque" class="kenburns h-full w-full object-cover" fetchpriority="high" />
+        <div class="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/70 to-ink-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-ink-950/70 to-transparent"></div>
+      </div>
+
+      <div class="wrap relative z-10 pb-28 pt-32 md:pb-24">
+        <div class="max-w-[720px]">
+          <div data-reveal class="mb-5 flex flex-wrap gap-2">
+            <span class="chip"><span class="h-1.5 w-1.5 rounded-full bg-gold-400"></span>Carrilho Urban</span>
+            <span class="chip">Centro de Paulista · PE</span>
+            <span class="chip border-emer-400/40 text-emer-300">Minha Casa Minha Vida</span>
+          </div>
+
+          <h1 class="split font-display text-[42px] font-light leading-[1.02] tracking-tight md:text-[74px]" data-split>
+            O último condomínio do <em class="text-gradient italic">único bairro planejado</em> no centro de Paulista.
+          </h1>
+
+          <p data-reveal style="--d:500ms" class="lead mt-6 max-w-[560px]">
+            2 quartos com suíte, mais de 30 itens de lazer entregues equipados e um parque de <strong class="text-sand-100">33 mil m²</strong> na porta de casa. Quando este fechar, o Vila Aurora não terá outro.
+          </p>
+
+          <div data-reveal style="--d:650ms" class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="#" data-wa="hero_primary" data-msg="Olá! Quero receber os valores e as condições do Aurora dos Pássaros." class="btn btn-wa btn-shine magnetic">
+              <svg class="h-5 w-5"><use href="#i-wa"/></svg> Quero valores e condições
+            </a>
+            <a href="#tour" class="btn btn-ghost">
+              <svg class="h-4 w-4"><use href="#i-play"/></svg> Ver o tour
+            </a>
+          </div>
+
+          <div data-reveal style="--d:800ms" class="mt-10 grid max-w-[560px] grid-cols-3 divide-x divide-white/10 rounded-2xl glass">
+            <div class="px-4 py-4"><div class="font-display text-[28px] leading-none text-gold-300 md:text-[34px]"><span data-count="30">0</span>+</div><div class="mt-1.5 text-[11.5px] font-semibold text-sand-200/60">itens de lazer</div></div>
+            <div class="px-4 py-4"><div class="font-display text-[28px] leading-none text-gold-300 md:text-[34px]"><span data-count="45.46" data-dec="2">0</span><span class="text-[16px]">m²</span></div><div class="mt-1.5 text-[11.5px] font-semibold text-sand-200/60">2 quartos c/ suíte</div></div>
+            <div class="px-4 py-4"><div class="font-display text-[28px] leading-none text-gold-300 md:text-[34px]"><span data-count="50">0</span>+</div><div class="mt-1.5 text-[11.5px] font-semibold text-sand-200/60">anos de Carrilho</div></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#tour" class="absolute bottom-6 left-1/2 z-10 hidden -translate-x-1/2 flex-col items-center gap-2 text-[10px] font-bold tracking-[.3em] text-sand-200/50 md:flex" aria-label="Rolar">
+        ROLE
+        <span class="relative h-9 w-5 rounded-full border border-white/25"><span class="scrollcue absolute left-1/2 top-2 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-gold-400"></span></span>
+      </a>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee overflow-hidden border-y border-white/[.06] bg-ink-900 py-4">
+      <div class="marquee-track" id="marquee"></div>
+    </div>
+
+    <!-- ================= VÍDEO / TOUR ================= -->
+    <section id="tour" class="relative py-20 md:py-28">
+      <div class="wrap">
+        <div class="mb-10 flex flex-col justify-between gap-5 md:flex-row md:items-end">
+          <div>
+            <span data-reveal class="eyebrow">Tour do empreendimento</span>
+            <h2 class="split h-sec mt-4" data-split>Antes de visitar, <em>passeie por dentro.</em></h2>
+          </div>
+          <p data-reveal class="lead max-w-[380px]">Aperte o play e veja o lazer, o decorado e o bairro. Gostou? A visita é agendada direto comigo.</p>
+        </div>
+
+        <div data-reveal="zoom" class="relative">
+          <div id="player" class="relative aspect-[9/12] w-full overflow-hidden rounded-[28px] border border-white/10 bg-ink-900 shadow-[0_40px_120px_-40px_rgba(0,0,0,.9)] sm:aspect-video"></div>
+        </div>
+
+        <div id="playlist" class="no-scrollbar -mx-5 mt-5 flex snap-x snap-mandatory gap-3 overflow-x-auto px-5 md:mx-0 md:px-0"></div>
+      </div>
+    </section>
+
+    <!-- ================= PILARES ================= -->
+    <section id="pilares" class="relative overflow-hidden py-20 md:py-28">
+      <div class="pointer-events-none absolute left-1/2 top-0 h-[480px] w-[780px] -translate-x-1/2 rounded-full bg-emer-500/10 blur-[120px]"></div>
+      <div class="wrap relative">
+        <span data-reveal class="eyebrow">Por que o Aurora</span>
+        <h2 class="split h-sec mt-4 max-w-[760px]" data-split>Quatro motivos que <em>não se repetem</em> em Paulista.</h2>
+
+        <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4" id="pillars">
+          <!-- preenchido via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BAIRRO ================= -->
+    <section id="bairro" class="relative overflow-hidden py-20 md:py-28">
+      <div class="wrap grid items-center gap-10 lg:grid-cols-[1.05fr_1fr]">
+        <div data-reveal="left" class="relative">
+          <div class="overflow-hidden rounded-[28px] border border-white/10">
+            <img src="assets/vila-aurora.webp" alt="Ilustração do bairro Vila Aurora com parque, ciclovia e chaminés históricas" loading="lazy" class="h-full w-full object-cover" />
+          </div>
+          <div class="glass floaty absolute -bottom-6 right-4 max-w-[230px] rounded-2xl p-4 md:-right-6">
+            <div class="font-display text-[34px] leading-none text-gold-300"><span data-count="116">0</span> lojas</div>
+            <p class="mt-1.5 text-[12.5px] leading-snug text-sand-200/70">e 23 salas no Pátio Aurora Open Mall, dentro do bairro.</p>
+          </div>
+        </div>
+        <div>
+          <span data-reveal class="eyebrow">Bairro planejado Vila Aurora</span>
+          <h2 class="split h-sec mt-4" data-split>Ruas, ciclovia, parque e shopping. <em>Tudo a pé.</em></h2>
+          <p data-reveal class="lead mt-5">O Aurora dos Pássaros fecha o Vila Aurora: um bairro completo com ruas pavimentadas, ciclovia e pista de cooper. Do lado, o Parque Aurora, com mais de 33.000 m² de lazer e esporte.</p>
+          <ul class="mt-7 grid grid-cols-2 gap-2.5" id="pois"></ul>
+        </div>
+      </div>
+
+      <!-- Mapa -->
+      <div class="wrap mt-16">
+        <div data-reveal="zoom" class="relative overflow-hidden rounded-[28px] border border-white/10">
+          <img src="assets/mapa.webp" alt="Mapa ilustrativo de localização do Aurora dos Pássaros no centro de Paulista" loading="lazy" class="w-full" />
+          <div class="absolute bottom-3 left-3 rounded-full bg-ink-950/80 px-3 py-1.5 text-[11px] font-semibold text-sand-200/70 backdrop-blur">Mapa ilustrativo, sem escala</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NÚMEROS ================= -->
+    <section class="relative overflow-hidden">
+      <img src="assets/piscina-torres.webp" alt="" aria-hidden="true" loading="lazy" class="parallax absolute inset-0 h-[130%] w-full object-cover" />
+      <div class="absolute inset-0 bg-ink-950/75"></div>
+      <div class="wrap relative grid grid-cols-2 gap-px py-20 md:grid-cols-5 md:py-24">
+        <div data-reveal class="p-4 text-center"><div class="font-display text-[42px] leading-none text-gold-300 md:text-[52px]">+<span data-count="21000" data-sep>0</span></div><div class="mt-2 text-[12px] font-semibold uppercase tracking-[.15em] text-sand-200/70">m² de terreno</div></div>
+        <div data-reveal style="--d:80ms" class="p-4 text-center"><div class="font-display text-[42px] leading-none text-gold-300 md:text-[52px]"><span data-count="6">0</span></div><div class="mt-2 text-[12px] font-semibold uppercase tracking-[.15em] text-sand-200/70">torres</div></div>
+        <div data-reveal style="--d:160ms" class="p-4 text-center"><div class="font-display text-[42px] leading-none text-gold-300 md:text-[52px]"><span data-count="10">0</span></div><div class="mt-2 text-[12px] font-semibold uppercase tracking-[.15em] text-sand-200/70">pavimentos</div></div>
+        <div data-reveal style="--d:240ms" class="p-4 text-center"><div class="font-display text-[42px] leading-none text-gold-300 md:text-[52px]"><span data-count="2">0</span></div><div class="mt-2 text-[12px] font-semibold uppercase tracking-[.15em] text-sand-200/70">elevadores / torre</div></div>
+        <div data-reveal style="--d:320ms" class="col-span-2 p-4 text-center md:col-span-1"><div class="font-display text-[42px] leading-none text-gold-300 md:text-[52px]">+<span data-count="8000" data-sep>0</span></div><div class="mt-2 text-[12px] font-semibold uppercase tracking-[.15em] text-sand-200/70">m² de lazer e verde</div></div>
+      </div>
+    </section>
+
+    <!-- ================= LAZER ================= -->
+    <section id="lazer" class="py-20 md:py-28">
+      <div class="wrap">
+        <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+          <div>
+            <span data-reveal class="eyebrow">Lazer ao máximo</span>
+            <h2 class="split h-sec mt-4" data-split>Clube na porta do elevador. <em>Entregue decorado.</em></h2>
+          </div>
+          <p data-reveal class="lead max-w-[380px]">Toque nas fotos para ampliar. Todos os espaços chegam decorados e equipados.</p>
+        </div>
+        <div id="filters" class="no-scrollbar -mx-5 mt-8 flex gap-2 overflow-x-auto px-5 md:mx-0 md:px-0"></div>
+        <div id="gallery" class="mt-6 grid grid-flow-dense grid-cols-2 gap-3 md:grid-cols-4 md:gap-4"></div>
+      </div>
+    </section>
+
+    <!-- ================= PLANTAS ================= -->
+    <section id="plantas" class="relative overflow-hidden py-20 md:py-28">
+      <div class="pointer-events-none absolute right-0 top-20 h-[420px] w-[520px] rounded-full bg-gold-500/10 blur-[120px]"></div>
+      <div class="wrap relative">
+        <span data-reveal class="eyebrow">Plantas</span>
+        <h2 class="split h-sec mt-4" data-split>2 quartos, <em>sendo 1 suíte.</em> Escolha o seu.</h2>
+
+        <div data-reveal class="relative mt-8 inline-flex w-full max-w-[460px] rounded-full glass p-1.5" role="tablist" id="tabs">
+          <span id="tabPill" class="absolute bottom-1.5 left-1.5 top-1.5 rounded-full bg-gradient-to-r from-gold-300 to-gold-500 transition-all duration-500 ease-[cubic-bezier(.2,.8,.2,1)]"></span>
+          <button class="tab" role="tab" aria-selected="true" data-plan="tipo">Tipo · 45,46 m²</button>
+          <button class="tab" role="tab" aria-selected="false" data-plan="jardim">Jardim · 56,38 m²</button>
+        </div>
+
+        <div class="mt-8 grid items-start gap-8 lg:grid-cols-[1.25fr_1fr]">
+          <div data-reveal="zoom" class="relative overflow-hidden rounded-[28px] border border-white/10 bg-sand-100 p-3 md:p-5">
+            <img id="planImg" src="assets/planta-tipo.webp" alt="Planta humanizada do apartamento" class="zoomable w-full rounded-2xl transition-opacity duration-300" loading="lazy" />
+            <span class="absolute right-4 top-4 rounded-full bg-ink-950/85 px-3 py-1.5 text-[11px] font-bold text-sand-100">Toque para ampliar</span>
+          </div>
+          <div data-reveal>
+            <div class="flex items-baseline gap-3">
+              <div id="planArea" class="font-display text-[64px] font-light leading-none text-gold-300 md:text-[80px]">45,46</div>
+              <div class="text-[18px] text-sand-200/60">m²</div>
+            </div>
+            <div id="planName" class="mt-2 text-[13px] font-bold uppercase tracking-[.2em] text-sand-200/60">Apartamento Tipo</div>
+            <p id="planPitch" class="lead mt-4"></p>
+            <ul id="planList" class="mt-6 space-y-2.5"></ul>
+            <div class="mt-6 rounded-2xl border border-coral-500/30 bg-coral-500/10 p-4">
+              <div class="text-[11px] font-bold uppercase tracking-[.2em] text-coral-400">Já vem com</div>
+              <ul class="mt-2 grid gap-1.5 text-[14px] text-sand-100/90">
+                <li>· Varanda com peitoril em vidro</li><li>· Local para split</li><li>· Tomada USB na suíte</li><li>· Preparação para aquecimento a gás nos chuveiros</li>
+              </ul>
+            </div>
+            <a href="#" id="planCta" data-wa="planta" data-msg="" class="btn btn-gold btn-shine mt-6 w-full sm:w-auto">
+              <svg class="h-5 w-5"><use href="#i-wa"/></svg> <span id="planCtaTxt">Receber a planta e valores do Tipo</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Decorado -->
+        <div class="mt-16">
+          <div class="mb-5 flex items-end justify-between">
+            <h3 data-reveal class="font-display text-[26px] md:text-[32px]">Por dentro do <em class="italic text-gold-400">decorado</em></h3>
+            <div class="hidden gap-2 md:flex">
+              <button class="grid h-11 w-11 place-items-center rounded-full border border-white/15 hover:border-gold-400" data-scroll="-1" aria-label="Anterior"><svg class="h-4 w-4 rotate-180"><use href="#i-arrow"/></svg></button>
+              <button class="grid h-11 w-11 place-items-center rounded-full border border-white/15 hover:border-gold-400" data-scroll="1" aria-label="Próximo"><svg class="h-4 w-4"><use href="#i-arrow"/></svg></button>
+            </div>
+          </div>
+          <div id="interiors" class="no-scrollbar -mx-5 flex snap-x snap-mandatory gap-3 overflow-x-auto px-5 md:mx-0 md:px-0"></div>
+          <p class="mt-3 text-[11.5px] text-sand-200/40">Imagens ilustrativas. Mobiliário e decoração não fazem parte do contrato.</p>
+        </div>
+
+        <!-- Implantação -->
+        <div data-reveal="zoom" class="mt-16 overflow-hidden rounded-[28px] border border-white/10 bg-sand-100">
+          <div class="flex items-center justify-between gap-3 bg-ink-900 px-5 py-4">
+            <div><div class="text-[11px] font-bold uppercase tracking-[.2em] text-gold-400">Implantação</div><div class="font-display text-[20px]">6 torres, 30 espaços, 1 condomínio</div></div>
+            <button data-lightbox="assets/implantacao.webp" data-cap="Implantação do condomínio" class="chip shrink-0 hover:border-gold-400">Ampliar</button>
+          </div>
+          <img src="assets/implantacao.webp" alt="Implantação do condomínio com as 6 torres e áreas de lazer numeradas" loading="lazy" class="zoomable w-full" data-lightbox="assets/implantacao.webp" data-cap="Implantação do condomínio" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SEGURANÇA ================= -->
+    <section class="relative overflow-hidden py-20 md:py-28">
+      <div class="wrap grid items-center gap-10 lg:grid-cols-2">
+        <div class="order-2 lg:order-1">
+          <span data-reveal class="eyebrow">Segurança e sustentabilidade</span>
+          <h2 class="split h-sec mt-4" data-split>Seu rosto é a <em>chave de casa.</em></h2>
+          <p data-reveal class="lead mt-5">Acesso de pedestres por reconhecimento facial, veículos por tag e guarita com eclusa. Do lado verde: medição individual de água e louças que economizam.</p>
+          <div class="mt-8 grid gap-3 sm:grid-cols-2" id="secList"></div>
+        </div>
+        <div data-reveal="zoom" class="relative order-1 lg:order-2">
+          <div class="overflow-hidden rounded-[28px] border border-white/10"><img src="assets/fachada.webp" alt="Fachada e portaria do Aurora dos Pássaros" loading="lazy" class="w-full" /></div>
+          <div class="glass absolute left-4 top-4 flex items-center gap-3 rounded-2xl px-4 py-3">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#dfbf7e" stroke-width="1.6" stroke-linecap="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><path d="M9 10v1M15 10v1M12 10v3h-1M9 16c1.7 1.3 4.3 1.3 6 0"/></svg>
+            <div><div class="text-[13px] font-bold">Reconhecimento facial</div><div class="text-[11.5px] text-sand-200/60">no acesso de pedestres</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= OFERTA + QUALIFICAÇÃO ================= -->
+    <section id="condicoes" class="relative py-20 md:py-28">
+      <div class="wrap">
+        <div class="relative overflow-hidden rounded-[32px] border border-gold-500/25 bg-gradient-to-br from-ink-800 via-ink-900 to-ink-950 p-6 md:p-12">
+          <div class="pointer-events-none absolute -right-24 -top-24 h-[360px] w-[360px] rounded-full bg-gold-500/15 blur-[90px]"></div>
+          <div class="relative grid gap-10 lg:grid-cols-[1fr_1.05fr]">
+            <!-- Oferta -->
+            <div>
+              <span data-reveal class="eyebrow">Condições</span>
+              <h2 class="split h-sec mt-4" data-split>Descubra em 30 segundos <em>se você já pode comprar.</em></h2>
+              <p data-reveal class="lead mt-5">Empreendimento do Minha Casa Minha Vida. Com a sua renda, eu calculo subsídio, uso do FGTS e a parcela real, sem compromisso.</p>
+
+              <div data-reveal id="priceBox" class="mt-7 rounded-2xl glass p-5">
+                <div class="text-[11px] font-bold uppercase tracking-[.2em] text-sand-200/50">Valores</div>
+                <div id="priceMain" class="mt-1 font-display text-[30px] leading-tight text-gold-300">Tabela atualizada no WhatsApp</div>
+                <div id="priceSub" class="mt-1 text-[13.5px] text-sand-200/60">A tabela pode mudar sem aviso prévio. Garanta a condição de hoje.</div>
+              </div>
+
+              <div data-reveal id="scarcity" class="mt-4 hidden rounded-2xl border border-coral-500/30 bg-coral-500/10 p-5">
+                <div class="flex items-center justify-between text-[13px] font-bold"><span class="text-coral-400">Unidades disponíveis</span><span id="scarcityTxt"></span></div>
+                <div class="mt-3 h-2 overflow-hidden rounded-full bg-white/10"><div id="scarcityBar" class="h-full w-0 rounded-full bg-gradient-to-r from-coral-400 to-gold-400 transition-[width] duration-[1600ms] ease-out"></div></div>
+              </div>
+
+              <ul data-reveal class="mt-6 space-y-3 text-[14.5px] text-sand-100/90">
+                <li class="flex gap-3"><svg class="mt-0.5 h-5 w-5 shrink-0 text-emer-400"><use href="#i-check"/></svg>Simulação personalizada com subsídio e FGTS</li>
+                <li class="flex gap-3"><svg class="mt-0.5 h-5 w-5 shrink-0 text-emer-400"><use href="#i-check"/></svg>Escolha de unidade, torre e andar comigo</li>
+                <li class="flex gap-3"><svg class="mt-0.5 h-5 w-5 shrink-0 text-emer-400"><use href="#i-check"/></svg>Visita guiada ao bairro e ao decorado</li>
+                <li class="flex gap-3"><svg class="mt-0.5 h-5 w-5 shrink-0 text-emer-400"><use href="#i-check"/></svg>Acompanhamento até a assinatura na Caixa</li>
+              </ul>
+            </div>
+
+            <!-- Quiz -->
+            <div data-reveal="zoom" class="rounded-[24px] border border-white/10 bg-ink-950/60 p-5 md:p-7">
+              <div class="flex items-center justify-between">
+                <div class="text-[12px] font-bold uppercase tracking-[.2em] text-gold-400">Pré-análise gratuita</div>
+                <div id="qStep" class="text-[12px] font-semibold text-sand-200/50">1 de 4</div>
+              </div>
+              <div class="mt-3 h-1 overflow-hidden rounded-full bg-white/10"><div id="qBar" class="h-full w-1/4 rounded-full bg-gradient-to-r from-emer-400 to-gold-400 transition-all duration-500"></div></div>
+              <div id="quiz" class="relative mt-6 min-h-[340px]"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONSTRUTORA ================= -->
+    <section class="py-16 md:py-24">
+      <div class="wrap"><div class="grid items-center gap-8 rounded-[28px] border border-white/10 bg-sand-100 p-6 text-ink-900 md:grid-cols-[1fr_1.2fr] md:p-10">
+        <div data-reveal>
+          <img src="assets/logo-carrilho.webp" alt="Construtora Carrilho" class="h-12 w-auto" loading="lazy" />
+          <h3 class="mt-5 font-display text-[30px] leading-tight md:text-[38px]">Confiança que só o tempo traz.</h3>
+        </div>
+        <div data-reveal style="--d:120ms">
+          <p class="text-[15.5px] leading-relaxed text-ink-700">Mais de 50 anos de mercado e vencedora do Troféu Ademi. Projeto de arquitetura de Ricardo Afonso e Vilmar Paiva, com mais de 80 edifícios assinados em Pernambuco, e paisagismo de Márcia Lima.</p>
+          <div class="mt-5 rounded-2xl bg-white/70 p-3"><img src="assets/selos.webp" alt="Selos NDT Caixa, Great Place to Work e PBQP-H" class="h-20 w-auto md:h-24" loading="lazy" /></div>
+        </div>
+      </div></div>
+    </section>
+
+    <!-- ================= CORRETOR ================= -->
+    <section id="contato" class="py-16 md:py-24">
+      <div class="wrap">
+        <div data-reveal="zoom" class="spot glass relative overflow-hidden rounded-[32px] p-6 md:p-10">
+          <div class="grid items-center gap-8 md:grid-cols-[auto_1fr_auto]">
+            <div class="relative mx-auto md:mx-0">
+              <div id="avatar" class="grid h-28 w-28 place-items-center overflow-hidden rounded-full border-2 border-gold-400 bg-gradient-to-br from-ink-700 to-ink-900 font-display text-[38px] text-gold-300"></div>
+              <span class="absolute bottom-1 right-1 grid h-7 w-7 place-items-center rounded-full border-4 border-ink-900 bg-emer-400"></span>
+            </div>
+            <div class="text-center md:text-left">
+              <img src="assets/logo-wind.webp" alt="Wind+ Imobiliária" class="mx-auto mb-5 h-12 w-auto md:mx-0" style="display:block" loading="lazy" />
+              <div class="text-[11px] font-bold uppercase tracking-[.22em] text-gold-400">Corretor de imóveis, com orgulho</div>
+              <div id="brokerName" class="mt-2 font-display text-[32px] leading-tight"></div>
+              <div id="brokerRole" class="mt-1 text-[14px] text-sand-200/60"></div>
+              <p class="mt-4 max-w-[480px] font-display text-[19px] italic leading-snug text-sand-100">“Não vendo apartamentos. Ajudo famílias a girar a chave da primeira casa própria.”</p>
+              <p class="mt-3 max-w-[480px] text-[15px] leading-relaxed text-sand-200/80">Escolhi ser corretor porque poucas profissões mudam tanto a vida de alguém. Me manda um “oi” que eu te respondo com a tabela, a simulação e os horários de visita, e caminho com você até o dia da entrega das chaves.</p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <a href="#" data-wa="broker_card" data-msg="Olá! Quero conversar sobre o Aurora dos Pássaros." class="btn btn-wa btn-shine magnetic"><svg class="h-5 w-5"><use href="#i-wa"/></svg> Chamar no WhatsApp</a>
+              <a href="#" id="igLink" target="_blank" rel="noopener" class="btn btn-ghost hidden">Ver Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="pb-28 pt-6 md:pb-32">
+      <div class="wrap max-w-[860px]">
+        <span data-reveal class="eyebrow">Dúvidas rápidas</span>
+        <h2 class="split h-sec mt-4" data-split>Perguntas <em>frequentes</em></h2>
+        <div id="faq" class="mt-8 divide-y divide-white/10 border-y border-white/10"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="border-t border-white/10 bg-ink-900 pb-32 pt-12 md:pb-14">
+    <div class="wrap">
+      <div class="flex flex-col justify-between gap-6 md:flex-row md:items-center">
+        <div>
+          <div class="font-display text-[20px] tracking-[.3em]">AURORA <span class="text-[11px] tracking-[.35em] text-gold-400">DOS PÁSSAROS</span></div>
+          <div class="mt-1 text-[12.5px] text-sand-200/50">Uma realização Carrilho · Linha Carrilho Urban · Paulista-PE</div>
+          <div class="mt-1 text-[12.5px] text-sand-200/50">Divulgação: Sérgio Bezerra · Corretor de imóveis · CRECI-PE 23.214 · Wind+ Imobiliária</div>
+        </div>
+        <a href="#" data-wa="footer" data-msg="Olá! Vim pelo site do Aurora dos Pássaros." class="btn btn-ghost w-full md:w-auto"><svg class="h-5 w-5 text-emer-400"><use href="#i-wa"/></svg> Falar com o corretor</a>
+      </div>
+      <p class="mt-8 text-[11px] leading-relaxed text-sand-200/35">
+        Imagens, perspectivas, mobiliário, decoração, paisagismo e equipamentos de lazer são meramente ilustrativos e podem variar em quantidade, especificação e localização. Plantas sujeitas a alterações por necessidade técnica ou exigência de órgãos públicos. Mapa sem escala. Memorial de incorporação registrado no R-3 da matrícula nº 12.215 da 2ª Serventia Registral do Paulista/PE. Tabela de preços sujeita a alteração sem aviso prévio; parcelas corrigidas pelo INCC-DI/FGV até a entrega das chaves. Financiamento sujeito à aprovação de crédito pela CEF. Empreendimento integrante do Programa Minha Casa, Minha Vida. Página de divulgação por corretor parceiro.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ================= BARRA FIXA INFERIOR (MOBILE) ================= -->
+  <div id="bottombar" class="fixed inset-x-0 bottom-0 z-50 px-3 pb-[max(12px,env(safe-area-inset-bottom))] md:hidden">
+    <div class="glass flex items-center gap-2 rounded-[22px] bg-ink-900/80 p-2 shadow-[0_-10px_40px_-10px_rgba(0,0,0,.8)]">
+      <a href="#condicoes" class="flex h-[52px] flex-1 flex-col items-center justify-center rounded-2xl border border-white/10 text-[12px] font-bold leading-tight text-sand-100">Simular<span class="text-[10px] font-semibold text-sand-200/50">30 segundos</span></a>
+      <a href="#" data-wa="sticky_bottom" data-msg="Olá! Quero valores e condições do Aurora dos Pássaros." class="btn btn-wa btn-shine h-[52px] flex-[1.6] !py-0 !text-[14px]"><svg class="h-5 w-5"><use href="#i-wa"/></svg> Chamar no WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- Botão flutuante (desktop) -->
+  <a href="#" data-wa="floating_desktop" data-msg="Olá! Quero saber mais sobre o Aurora dos Pássaros." class="fixed bottom-6 right-6 z-50 hidden h-16 w-16 place-items-center rounded-full bg-emer-500 text-ink-950 shadow-[0_14px_40px_-8px_rgba(31,176,125,.8)] transition hover:scale-110 md:grid" aria-label="WhatsApp">
+    <span class="absolute inset-0 animate-ping rounded-full bg-emer-400/40"></span>
+    <svg class="relative h-8 w-8"><use href="#i-wa"/></svg>
+  </a>
+
+  <!-- ================= LIGHTBOX ================= -->
+  <div id="lightbox" hidden class="fixed inset-0 z-[90] flex flex-col bg-ink-950/95 backdrop-blur-md" role="dialog" aria-modal="true">
+    <div class="flex items-center justify-between p-4">
+      <div id="lbCap" class="text-[13px] font-semibold text-sand-200/80"></div>
+      <button id="lbClose" class="grid h-11 w-11 place-items-center rounded-full border border-white/15 text-[22px]" aria-label="Fechar">×</button>
+    </div>
+    <div class="relative flex flex-1 items-center justify-center overflow-hidden px-3">
+      <button id="lbPrev" class="absolute left-3 z-10 grid h-12 w-12 place-items-center rounded-full bg-white/10" aria-label="Anterior"><svg class="h-5 w-5 rotate-180"><use href="#i-arrow"/></svg></button>
+      <img id="lbImg" alt="" class="max-h-full max-w-full rounded-xl object-contain" />
+      <button id="lbNext" class="absolute right-3 z-10 grid h-12 w-12 place-items-center rounded-full bg-white/10" aria-label="Próximo"><svg class="h-5 w-5"><use href="#i-arrow"/></svg></button>
+    </div>
+    <div class="p-4 pb-[max(16px,env(safe-area-inset-bottom))]">
+      <a href="#" id="lbCta" data-wa="lightbox" data-msg="" class="btn btn-wa w-full"><svg class="h-5 w-5"><use href="#i-wa"/></svg> Quero conhecer pessoalmente</a>
+    </div>
+  </div>
+
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- ================= APP ================= -->
+  <script>
+  (function () {
+    'use strict';
+    var C = window.AURORA_CONFIG;
+    var $ = function (s, r) { return (r || document).querySelector(s); };
+    var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    /* ---------- ORIGEM DO LEAD (UTM / gclid / fbclid) ---------- */
+    var src = {};
+    try {
+      var qs = new URLSearchParams(location.search);
+      ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'].forEach(function (k) { if (qs.get(k)) src[k] = qs.get(k); });
+      if (Object.keys(src).length) sessionStorage.setItem('aurora_src', JSON.stringify(src));
+      else src = JSON.parse(sessionStorage.getItem('aurora_src') || '{}');
+    } catch (e) {}
+    function originTag() {
+      if (src.gclid) return 'Google Ads';
+      if (src.utm_source) return src.utm_source + (src.utm_campaign ? ' / ' + src.utm_campaign : '');
+      if (src.fbclid || /instagram/i.test(navigator.userAgent)) return 'Instagram';
+      if (document.referrer) { try { return new URL(document.referrer).hostname.replace('www.', ''); } catch (e) {} }
+      return 'site';
+    }
+
+    /* ---------- RASTREAMENTO ---------- */
+    function track(name, params) {
+      params = Object.assign({ page_variant: 'aurora_v1', lead_origin: originTag() }, src, params || {});
+      try { gtag('event', name, params); } catch (e) {}
+      try { dataLayer.push(Object.assign({ event: name }, params)); } catch (e) {}
+      if (window.fbq) {
+        if (name === 'lead_click') fbq('track', 'Contact', params);
+        else if (name === 'lead_qualified') fbq('track', 'Lead', params);
+        else fbq('trackCustom', name, params);
+      }
+    }
+    window.auroraTrack = track;
+
+    /* ---------- WHATSAPP ---------- */
+    function waUrl(msg) {
+      var text = msg + '\n\n[origem: ' + originTag() + ']';
+      return 'https://wa.me/' + C.whatsapp + '?text=' + encodeURIComponent(text);
+    }
+    function openWa(location, msg, extra) {
+      track('lead_click', Object.assign({ cta_location: location, event_category: 'whatsapp', event_label: location, value: 1, currency: 'BRL' }, extra || {}));
+      if (C.googleAdsConversion && !C.gtmId) try { gtag('event', 'conversion', { send_to: C.googleAdsConversion }); } catch (e) {}
+      var url = waUrl(msg);
+      setTimeout(function () { window.open(url, '_blank', 'noopener'); }, 120); // dá tempo de o evento sair
+    }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('[data-wa]');
+      if (!a) return;
+      e.preventDefault();
+      openWa(a.getAttribute('data-wa'), a.getAttribute('data-msg') || 'Olá! Quero saber mais sobre o Aurora dos Pássaros.');
+    });
+    if (/^55819?0+$/.test(C.whatsapp)) console.warn('[Aurora] Configure seu número de WhatsApp em AURORA_CONFIG.whatsapp');
+
+    /* ---------- STATUS ONLINE ---------- */
+    var h = new Date().getHours(), on = h >= C.horarioAtendimento[0] && h < C.horarioAtendimento[1];
+    $('#statusTxt').textContent = on ? 'Atendimento online agora · respondo em minutos' : 'Deixe sua mensagem · respondo cedinho';
+
+    /* ---------- PRELOADER ---------- */
+    function hideLoader() { $('#loader').classList.add('out'); document.body.classList.add('loaded'); }
+    if (reduce) hideLoader(); else window.addEventListener('load', function () { setTimeout(hideLoader, 900); });
+    setTimeout(hideLoader, 3200); // segurança
+
+    /* ---------- TÍTULOS PALAVRA A PALAVRA ---------- */
+    $$('[data-split]').forEach(function (el) {
+      var i = 0;
+      (function walk(node) {
+        Array.prototype.slice.call(node.childNodes).forEach(function (n) {
+          if (n.nodeType === 3) {
+            var frag = document.createDocumentFragment();
+            n.textContent.split(/(\s+)/).forEach(function (part) {
+              if (!part) return;
+              if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(' ')); return; }
+              var w = document.createElement('span'); w.className = 'w';
+              var inner = document.createElement('span'); inner.textContent = part; inner.style.setProperty('--i', i++);
+              w.appendChild(inner); frag.appendChild(w);
+            });
+            n.parentNode.replaceChild(frag, n);
+          } else if (n.nodeType === 1) walk(n);
+        });
+      })(el);
+    });
+
+    /* ---------- CONTEÚDO ---------- */
+    var LEISURE = ['Piscina adulto com raia de 25 m','Prainha','Piscina infantil','Deck','2 espaços para festas','Praça gastrô com food truck','2 gazebos gourmet','Parque da infância com tirolesa','Casa da árvore','Cama elástica','Playground','Praça piquenique','Espaço kids','Brinquedoteca','Minicampo','Quadra de beach tênis','Vôlei de praia','Praça de jogos','Gazebo relax','Espaço CrossFit','Academia ao ar livre','Espaço mobilidade','Pista de cooper','Depósito para e-commerce','Self market','Sala multimídia','Pet place / Pet spa','Praça de Uber','Bicicletário'];
+    var mq = LEISURE.map(function (t) { return '<span class="mx-5 inline-flex items-center gap-5 whitespace-nowrap font-display text-[19px] italic text-sand-200/70">' + t + '<svg width="10" height="10" viewBox="0 0 10 10"><path d="M5 0 6 4 10 5 6 6 5 10 4 6 0 5 4 4Z" fill="#cfa55c"/></svg></span>'; }).join('');
+    $('#marquee').innerHTML = mq + mq;
+
+    var PILLARS = [
+      { k: 'Localização', ico: '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/>', t: 'Centro de Paulista, num bairro planejado', d: 'Open Mall, feira, banco, escola e acesso ao Paulista North Way e ao Recife. Tudo perto, sem abrir mão de rua tranquila.' },
+      { k: 'Lazer', ico: '<path d="M2 18c2 0 2-1.5 4-1.5S8 18 10 18s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><path d="M7 15V5a2 2 0 0 1 4 0M17 15V5a2 2 0 0 0-4 0M7 9h6M7 12h6"/>', t: '+30 itens, entregues equipados', d: 'Piscina com raia de 25 m, beach tênis, CrossFit, brinquedoteca, pet spa e praça gastrô com food truck. É clube sem mensalidade extra.' },
+      { k: 'Segurança', ico: '<path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/>', t: 'Acesso por reconhecimento facial', d: 'Guarita com eclusa, câmeras nos acessos, alarme com sensor de presença e veículos por tag.' },
+      { k: 'Valorização', ico: '<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>', t: 'O último lote do Vila Aurora', d: 'Bairro consolidado, com parque e shopping prontos. Quando o último condomínio vende, a oferta nova no bairro acaba.' },
+    ];
+    $('#pillars').innerHTML = PILLARS.map(function (p, i) {
+      return '<button type="button" data-reveal style="--d:' + (i * 90) + 'ms" class="spot group glass rounded-[24px] p-6 text-left transition-all duration-500 hover:-translate-y-1 hover:border-gold-400/40" data-pillar="' + p.k + '">' +
+        '<div class="flex items-center justify-between"><span class="grid h-12 w-12 place-items-center rounded-2xl border border-gold-400/30 bg-gold-400/10 text-gold-300 transition group-hover:scale-110 group-hover:bg-gold-400 group-hover:text-ink-950"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + p.ico + '</svg></span><span class="font-display text-[14px] text-sand-200/30">0' + (i + 1) + '</span></div>' +
+        '<div class="mt-6 text-[11px] font-bold uppercase tracking-[.22em] text-gold-400">' + p.k + '</div>' +
+        '<div class="mt-2 font-display text-[22px] leading-snug">' + p.t + '</div>' +
+        '<p class="mt-3 text-[14px] leading-relaxed text-sand-200/65">' + p.d + '</p></button>';
+    }).join('');
+
+    var POIS = ['Aurora Open Mall','Parque Aurora','Feira livre','Lojas Pernambucanas','Escola Menino Jesus','Banco do Brasil','Paulista North Way','Acesso ao Recife'];
+    $('#pois').innerHTML = POIS.map(function (p, i) {
+      return '<li data-reveal style="--d:' + (i * 50) + 'ms" class="flex items-center gap-2.5 rounded-xl border border-white/[.07] bg-white/[.03] px-3 py-2.5 text-[13.5px] font-semibold"><span class="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-coral-500 font-display text-[11px] text-white">0' + (i + 1) + '</span>' + p + '</li>';
+    }).join('');
+
+    var GALLERY = [
+      { f: 'lazer-piscina', t: 'Piscina adulto, prainha e deck', c: 'agua', big: 1 },
+      { f: 'lazer-gastro', t: 'Praça gastrô com food truck', c: 'familia' },
+      { f: 'lazer-beach', t: 'Quadra de beach tênis e vôlei', c: 'esporte' },
+      { f: 'lazer-brinquedoteca', t: 'Brinquedoteca', c: 'familia' },
+      { f: 'lazer-gazebo', t: 'Gazebo gourmet com churrasqueira', c: 'familia' },
+      { f: 'lazer-crossfit', t: 'Espaço CrossFit', c: 'esporte', big: 1 },
+      { f: 'lazer-infancia', t: 'Parque da infância', c: 'familia' },
+      { f: 'lazer-festas', t: 'Espaço de festas', c: 'familia' },
+      { f: 'lazer-minicampo', t: 'Minicampo', c: 'esporte' },
+      { f: 'lazer-mercadinho', t: 'Self market', c: 'conveniencia' },
+      { f: 'lazer-multimidia', t: 'Sala multimídia / coworking', c: 'conveniencia' },
+      { f: 'lazer-pet', t: 'Pet place e pet spa', c: 'conveniencia' },
+      { f: 'lazer-uber', t: 'Praça de Uber', c: 'conveniencia' },
+      { f: 'piscina-torres', t: 'Piscina com raia semiolímpica de 25 m', c: 'agua' },
+    ];
+    var FILTERS = [['todos','Todos'],['agua','Piscinas'],['familia','Família e kids'],['esporte','Esporte'],['conveniencia','Conveniência']];
+    $('#filters').innerHTML = FILTERS.map(function (f, i) { return '<button class="filter' + (i ? '' : ' is-on') + '" data-filter="' + f[0] + '">' + f[1] + '</button>'; }).join('');
+    function renderGallery(cat) {
+      var list = GALLERY.filter(function (g) { return cat === 'todos' || g.c === cat; });
+      $('#gallery').innerHTML = list.map(function (g, i) {
+        var span = (g.big && cat === 'todos') ? ' col-span-2 row-span-2' : '';
+        return '<button type="button" data-lightbox="assets/' + g.f + '.webp" data-cap="' + g.t + '" data-group="lazer" class="group relative overflow-hidden rounded-2xl border border-white/10 opacity-0 transition-all duration-700' + span + '" style="transition-delay:' + (i * 45) + 'ms">' +
+          '<img src="assets/' + g.f + '.webp" alt="' + g.t + '" loading="lazy" class="aspect-[4/3] h-full w-full object-cover transition duration-[1200ms] group-hover:scale-110" />' +
+          '<span class="absolute inset-0 bg-gradient-to-t from-ink-950/85 via-transparent to-transparent"></span>' +
+          '<span class="absolute bottom-0 left-0 right-0 p-3 text-left text-[12.5px] font-bold leading-snug md:p-4 md:text-[14px]">' + g.t + '</span></button>';
+      }).join('');
+      requestAnimationFrame(function () { requestAnimationFrame(function () { $$('#gallery > button').forEach(function (b) { b.classList.remove('opacity-0'); }); }); });
+    }
+    renderGallery('todos');
+    $('#filters').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-filter]'); if (!b) return;
+      $$('#filters .filter').forEach(function (x) { x.classList.toggle('is-on', x === b); });
+      renderGallery(b.dataset.filter); track('gallery_filter', { filter: b.dataset.filter });
+    });
+
+    $('#interiors').innerHTML = [1,2,3,4,5,6].map(function (n) {
+      var cap = ['Living integrado à cozinha','Sala para 2 ambientes','Living com varanda','Estar e jantar','Suíte','Segundo quarto'][n - 1];
+      return '<button type="button" data-lightbox="assets/interior-' + n + '.webp" data-cap="' + cap + ' (decorado)" data-group="int" class="group relative w-[82%] shrink-0 snap-start overflow-hidden rounded-2xl border border-white/10 sm:w-[46%] lg:w-[32%]"><img src="assets/interior-' + n + '.webp" alt="' + cap + '" loading="lazy" class="aspect-[16/10] w-full object-cover transition duration-[1200ms] group-hover:scale-105"/><span class="absolute bottom-3 left-3 rounded-full bg-ink-950/75 px-3 py-1.5 text-[12px] font-bold backdrop-blur">' + cap + '</span></button>';
+    }).join('');
+    $$('[data-scroll]').forEach(function (b) { b.addEventListener('click', function () { $('#interiors').scrollBy({ left: +b.dataset.scroll * $('#interiors').clientWidth * .66, behavior: 'smooth' }); }); });
+
+    var SEC = ['Guarita com eclusa','Câmeras nos acessos','Alarme com sensor de presença','Veículos por tag','Wi-fi nas áreas comuns (preparado)','Hidrômetros individuais instalados','Torneiras com arejador e dual flush','Sensores de presença nos halls'];
+    $('#secList').innerHTML = SEC.map(function (s, i) { return '<div data-reveal style="--d:' + (i * 50) + 'ms" class="flex items-center gap-3 rounded-xl border border-white/[.07] bg-white/[.03] px-4 py-3 text-[14px] font-semibold"><svg class="h-5 w-5 shrink-0 text-emer-400"><use href="#i-check"/></svg>' + s + '</div>'; }).join('');
+
+    var FAQ = [
+      ['O Aurora dos Pássaros é Minha Casa Minha Vida?', 'Sim. O empreendimento faz parte do programa, com financiamento pela Caixa sujeito à aprovação de crédito. Eu faço a simulação com subsídio e FGTS para a sua renda.'],
+      ['Posso usar o FGTS?', 'Quem tem 3 anos ou mais de carteira assinada (somando todos os empregos) pode usar o FGTS na entrada ou para reduzir o financiamento, conforme as regras da Caixa. Me chama que eu verifico o seu caso.'],
+      ['Quais as plantas disponíveis?', 'Apartamento Tipo com 45,46 m² e Apartamento Jardim (térreo, com varanda e jardim) com 56,38 m². Ambos têm 2 quartos, sendo 1 suíte, sala para 2 ambientes, varanda e área de serviço.'],
+      ['Onde fica?', 'No bairro planejado Vila Aurora, no centro de Paulista-PE, ao lado do Parque Aurora e do Pátio Aurora Open Mall.'],
+      ['Qual a previsão de entrega e o valor?', 'Tabela e cronograma mudam com frequência, então eu envio sempre a versão atualizada pelo WhatsApp. É só chamar.'],
+      ['Posso visitar?', 'Pode, e recomendo. Agendo a visita ao bairro e ao decorado no horário que for melhor para você.'],
+    ];
+    $('#faq').innerHTML = FAQ.map(function (f, i) {
+      return '<details data-reveal style="--d:' + (i * 50) + 'ms" class="group py-5"><summary class="flex items-center justify-between gap-4 text-[16px] font-bold md:text-[17px]">' + f[0] + '<span class="acc-ico grid h-8 w-8 shrink-0 place-items-center rounded-full border border-white/15 text-[18px] text-gold-400 transition-transform duration-300">+</span></summary><p class="mt-3 pr-10 text-[15px] leading-relaxed text-sand-200/70">' + f[1] + '</p></details>';
+    }).join('');
+    $('#faq').addEventListener('toggle', function (e) { if (e.target.open) track('faq_open', { question: e.target.querySelector('summary').firstChild.textContent }); }, true);
+
+    /* ---------- PLANTAS (TABS) ---------- */
+    var PLANS = {
+      tipo:   { img: 'assets/planta-tipo.webp', area: '45,46', name: 'Apartamento Tipo', pitch: 'Planta inteligente, sem corredor desperdiçado: a sala integra cozinha e varanda e os dois quartos ficam reservados.', list: ['2 quartos, sendo 1 suíte','Varanda','Sala para 2 ambientes','WC social','Cozinha integrada ao living','Área de serviço'] },
+      jardim: { img: 'assets/planta-jardim.webp', area: '56,38', name: 'Apartamento Jardim', pitch: 'No térreo, com varanda que abre para um jardim privativo. Ideal para quem tem pet, criança pequena ou sente falta de quintal.', list: ['2 quartos, sendo 1 suíte','Varanda com jardim privativo','Sala para 2 ambientes','WC social','Cozinha integrada ao living','Área de serviço'] },
+    };
+    function setPlan(key, silent) {
+      var p = PLANS[key];
+      $$('#tabs .tab').forEach(function (t, i) {
+        var on = t.dataset.plan === key; t.setAttribute('aria-selected', on);
+        if (on) { var pill = $('#tabPill'); pill.style.width = t.offsetWidth + 'px'; pill.style.left = t.offsetLeft + 'px'; }
+      });
+      var img = $('#planImg'); img.style.opacity = 0;
+      setTimeout(function () { img.src = p.img; img.alt = 'Planta humanizada — ' + p.name; img.dataset.lightbox = p.img; img.dataset.cap = p.name + ' · ' + p.area + ' m²'; img.style.opacity = 1; }, 220);
+      animateNumber($('#planArea'), parseFloat(p.area.replace(',', '.')), 2, 700);
+      $('#planName').textContent = p.name; $('#planPitch').textContent = p.pitch;
+      $('#planList').innerHTML = p.list.map(function (l) { return '<li class="flex items-center gap-3 border-b border-white/[.07] pb-2.5 text-[15px]"><svg class="h-4 w-4 shrink-0 text-gold-400"><use href="#i-check"/></svg>' + l + '</li>'; }).join('');
+      $('#planCtaTxt').textContent = 'Receber planta e valores do ' + (key === 'tipo' ? 'Tipo' : 'Jardim');
+      $('#planCta').dataset.msg = 'Olá! Quero receber a planta e os valores do ' + p.name + ' (' + p.area + ' m²) do Aurora dos Pássaros.';
+      if (!silent) track('plan_view', { plan: key });
+    }
+    $('#tabs').addEventListener('click', function (e) { var t = e.target.closest('.tab'); if (t) setPlan(t.dataset.plan); });
+    window.addEventListener('resize', function () { var cur = $('#tabs .tab[aria-selected="true"]'); if (cur) setPlan(cur.dataset.plan, true); });
+
+    /* ---------- VÍDEO / TOUR ---------- */
+    var TOUR = ['hero-aerea','lazer-piscina','lazer-gastro','interior-1','lazer-beach','interior-5','aerea-bairro'];
+    function embedSrc(v) {
+      if (v.tipo === 'youtube') return 'https://www.youtube-nocookie.com/embed/' + v.id + '?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+      if (v.tipo === 'vimeo') return 'https://player.vimeo.com/video/' + v.id + '?autoplay=1&title=0&byline=0&portrait=0';
+      return null;
+    }
+    function posterFor(v) { return v.capa || (v.tipo === 'youtube' ? 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg' : 'assets/piscina-torres.webp'); }
+    function playerCover(v) {
+      var P = $('#player');
+      P.innerHTML = '<button type="button" class="group absolute inset-0 h-full w-full" aria-label="Assistir ' + v.titulo + '">' +
+        '<img src="' + posterFor(v) + '" alt="" loading="lazy" class="h-full w-full object-cover transition duration-[1500ms] group-hover:scale-105"/>' +
+        '<span class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-ink-950/10"></span>' +
+        '<span class="play-ring absolute left-1/2 top-1/2 grid h-20 w-20 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-gold-400 text-ink-950 shadow-2xl transition group-hover:scale-110 md:h-24 md:w-24"><svg class="ml-1 h-8 w-8"><use href="#i-play"/></svg></span>' +
+        '<span class="absolute bottom-0 left-0 right-0 p-5 text-left md:p-8"><span class="text-[11px] font-bold uppercase tracking-[.22em] text-gold-400">Assista agora</span><span class="mt-1 block font-display text-[24px] leading-tight md:text-[34px]">' + v.titulo + '</span></span></button>';
+      P.firstChild.addEventListener('click', function () { playVideo(v); });
+    }
+    function playVideo(v) {
+      var P = $('#player'); track('video_play', { video_title: v.titulo, video_provider: v.tipo });
+      if (v.tipo === 'mp4') {
+        P.innerHTML = '<video class="h-full w-full bg-black object-contain" controls autoplay playsinline poster="' + posterFor(v) + '"><source src="' + v.src + '" type="video/mp4"></video>';
+        var vid = P.querySelector('video'), marks = {};
+        vid.addEventListener('timeupdate', function () { var pct = Math.floor(vid.currentTime / vid.duration * 4) * 25; if (pct && !marks[pct]) { marks[pct] = 1; track('video_progress', { video_title: v.titulo, percent: pct }); } });
+      } else {
+        P.innerHTML = '<iframe class="h-full w-full" src="' + embedSrc(v) + '" title="' + v.titulo + '" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen loading="lazy"></iframe>';
+      }
+    }
+    function tourSlideshow() {
+      var P = $('#player');
+      P.innerHTML = TOUR.map(function (f, i) { return '<div class="tour-slide' + (i ? '' : ' on') + '"><img src="assets/' + f + '.webp" alt="" loading="lazy" class="h-full w-full object-cover"/></div>'; }).join('') +
+        '<span class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-transparent to-ink-950/30"></span>' +
+        '<div class="absolute left-4 top-4 flex items-center gap-2 rounded-full bg-ink-950/70 px-3 py-1.5 text-[11px] font-bold backdrop-blur"><span class="pulse-dot !h-2 !w-2"></span>TOUR VISUAL</div>' +
+        '<div class="absolute bottom-0 left-0 right-0 flex flex-col gap-4 p-5 md:flex-row md:items-end md:justify-between md:p-8"><div><div class="text-[11px] font-bold uppercase tracking-[.22em] text-gold-400">Vídeo do decorado</div><div class="mt-1 font-display text-[24px] leading-tight md:text-[34px]">Quer o vídeo completo?<br class="hidden md:block"/> Te mando agora.</div></div>' +
+        '<a href="#" data-wa="video_request" data-msg="Olá! Quero receber o vídeo do Aurora dos Pássaros." class="btn btn-gold btn-shine shrink-0"><svg class="h-5 w-5"><use href="#i-wa"/></svg> Receber o vídeo</a></div>' +
+        '<div class="absolute left-0 right-0 top-0 flex gap-1 p-2">' + TOUR.map(function () { return '<span class="h-[3px] flex-1 overflow-hidden rounded-full bg-white/20"><span class="block h-full w-0 bg-gold-300"></span></span>'; }).join('') + '</div>';
+      var slides = $$('.tour-slide', P), bars = $$('.top-0 > span > span', P), i = 0;
+      function go(n) {
+        slides[i].classList.remove('on'); i = n % slides.length; slides[i].classList.add('on');
+        var img = slides[i].querySelector('img'); img.style.animation = 'none'; img.offsetHeight; img.style.animation = '';
+        bars.forEach(function (b, k) { b.style.transition = 'none'; b.style.width = k < i ? '100%' : '0'; });
+        requestAnimationFrame(function () { bars[i].style.transition = 'width 4s linear'; bars[i].style.width = '100%'; });
+      }
+      go(0); setInterval(function () { go(i + 1); }, 4000);
+    }
+    var vids = (C.videos || []).filter(function (v) { return v && (v.id || v.src); });
+    if (vids.length) {
+      playerCover(vids[0]);
+      if (vids.length > 1) {
+        $('#playlist').innerHTML = vids.map(function (v, i) {
+          return '<button type="button" data-v="' + i + '" class="group relative w-[62%] shrink-0 snap-start overflow-hidden rounded-2xl border border-white/10 sm:w-[32%] lg:w-[24%]' + (i ? '' : ' ring-2 ring-gold-400') + '"><img src="' + posterFor(v) + '" alt="" loading="lazy" class="aspect-video w-full object-cover transition group-hover:scale-105"/><span class="absolute inset-0 bg-ink-950/45"></span><span class="absolute left-3 top-3 grid h-8 w-8 place-items-center rounded-full bg-gold-400 text-ink-950"><svg class="ml-0.5 h-3.5 w-3.5"><use href="#i-play"/></svg></span><span class="absolute bottom-2 left-3 right-3 text-left text-[12.5px] font-bold">' + v.titulo + '</span></button>';
+        }).join('');
+        $('#playlist').addEventListener('click', function (e) {
+          var b = e.target.closest('[data-v]'); if (!b) return;
+          $$('#playlist [data-v]').forEach(function (x) { x.classList.toggle('ring-2', x === b); x.classList.toggle('ring-gold-400', x === b); });
+          playVideo(vids[+b.dataset.v]); $('#player').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+      }
+    } else tourSlideshow();
+
+    /* ---------- QUIZ DE QUALIFICAÇÃO ---------- */
+    var Q = [
+      { k: 'renda', q: 'Qual a renda bruta mensal da família?', o: ['Até R$ 2.850','De R$ 2.850 a R$ 4.700','De R$ 4.700 a R$ 8.600','Acima de R$ 8.600'] },
+      { k: 'fgts', q: 'Alguém da família tem 3 anos ou mais de carteira assinada?', o: ['Sim, tem FGTS','Não / não sei','Sou autônomo(a)'] },
+      { k: 'prazo', q: 'Quando você quer resolver a sua moradia?', o: ['Agora, este mês','Nos próximos 3 meses','Ainda estou pesquisando'] },
+    ];
+    var ans = {}, step = 0;
+    function setProg() { $('#qStep').textContent = (step + 1) + ' de 4'; $('#qBar').style.width = ((step + 1) / 4 * 100) + '%'; }
+    function renderQ() {
+      setProg();
+      var box = $('#quiz');
+      if (step < Q.length) {
+        var q = Q[step];
+        box.innerHTML = '<div class="q-anim opacity-0 translate-x-4 transition-all duration-500"><div class="font-display text-[23px] leading-snug md:text-[26px]">' + q.q + '</div><div class="mt-5 space-y-2.5">' +
+          q.o.map(function (o) { return '<button type="button" class="opt" data-o="' + o + '"><span>' + o + '</span><span class="tick"><svg class="h-3.5 w-3.5"><use href="#i-check"/></svg></span></button>'; }).join('') +
+          '</div>' + (step ? '<button type="button" id="qBack" class="mt-5 text-[13px] font-semibold text-sand-200/50 hover:text-sand-100">← Voltar</button>' : '') + '</div>';
+      } else {
+        box.innerHTML = '<div class="q-anim opacity-0 translate-x-4 transition-all duration-500"><div class="font-display text-[23px] leading-snug md:text-[26px]">Perfeito! Para quem eu envio a simulação?</div>' +
+          '<label class="mt-5 block text-[12px] font-bold uppercase tracking-[.18em] text-sand-200/50" for="qName">Seu primeiro nome</label>' +
+          '<input id="qName" autocomplete="given-name" class="mt-2 w-full rounded-2xl border border-white/15 bg-white/[.04] px-4 py-4 text-[16px] font-semibold text-sand-100 outline-none transition placeholder:text-sand-200/30 focus:border-gold-400" placeholder="Ex.: Ana" />' +
+          '<div class="mt-4 rounded-2xl border border-emer-400/25 bg-emer-500/10 p-4 text-[13.5px] leading-relaxed text-sand-100/90"><b class="text-emer-300">Seu perfil:</b> ' + ans.renda + ' · ' + ans.fgts + ' · ' + ans.prazo + '</div>' +
+          '<button type="button" id="qSend" class="btn btn-wa btn-shine mt-5 w-full"><svg class="h-5 w-5"><use href="#i-wa"/></svg> Receber minha simulação</button>' +
+          '<p class="mt-3 text-center text-[11.5px] text-sand-200/40">Você vai para o WhatsApp com a mensagem pronta. Sem spam.</p>' +
+          '<button type="button" id="qBack" class="mt-3 text-[13px] font-semibold text-sand-200/50 hover:text-sand-100">← Voltar</button></div>';
+      }
+      requestAnimationFrame(function () { requestAnimationFrame(function () { var a = $('.q-anim', box); if (a) a.classList.remove('opacity-0', 'translate-x-4'); }); });
+    }
+    $('#quiz').addEventListener('click', function (e) {
+      var o = e.target.closest('.opt');
+      if (o) {
+        o.classList.add('is-picked'); ans[Q[step].k] = o.dataset.o;
+        track('quiz_step', { step: step + 1, question: Q[step].k, answer: o.dataset.o });
+        setTimeout(function () { step++; renderQ(); if (step === Q.length) setTimeout(function () { var n = $('#qName'); if (n && window.innerWidth > 768) n.focus(); }, 400); }, 280);
+        return;
+      }
+      if (e.target.closest('#qBack')) { step = Math.max(0, step - 1); renderQ(); return; }
+      if (e.target.closest('#qSend')) {
+        var name = ($('#qName').value || '').trim();
+        if (!name) { $('#qName').classList.add('!border-coral-400'); $('#qName').focus(); return; }
+        var hot = /agora/i.test(ans.prazo) ? 'quente' : (/3 meses/.test(ans.prazo) ? 'morno' : 'frio');
+        track('lead_qualified', { renda_faixa: ans.renda, fgts: ans.fgts, prazo: ans.prazo, lead_temperature: hot });
+        openWa('quiz_submit', 'Olá! Sou ' + name + ' e quero a simulação do Aurora dos Pássaros.\n\n• Renda familiar: ' + ans.renda + '\n• FGTS: ' + ans.fgts + '\n• Prazo: ' + ans.prazo, { lead_temperature: hot });
+      }
+    });
+    renderQ();
+
+    /* ---------- OFERTA / ESCASSEZ ---------- */
+    if (C.precoAPartir) { $('#priceMain').innerHTML = '<span class="text-[15px] text-sand-200/60">a partir de</span> ' + C.precoAPartir; }
+    if (C.parcelaAPartir) { $('#priceSub').innerHTML = 'Parcelas a partir de <b class="text-sand-100">' + C.parcelaAPartir + '</b>. Tabela sujeita a alteração sem aviso prévio.'; }
+    if (C.unidadesRestantes && C.unidadesTotais) {
+      $('#scarcity').classList.remove('hidden');
+      $('#scarcityTxt').textContent = 'Restam ' + C.unidadesRestantes + ' de ' + C.unidadesTotais;
+      var sold = 100 - (C.unidadesRestantes / C.unidadesTotais * 100);
+      new IntersectionObserver(function (en, ob) { if (en[0].isIntersecting) { $('#scarcityBar').style.width = sold + '%'; ob.disconnect(); } }).observe($('#scarcity'));
+    }
+
+    /* ---------- CORRETOR ---------- */
+    $('#brokerName').textContent = C.corretorNome;
+    $('#brokerRole').textContent = C.corretorCargo + (C.creci ? ' · ' + C.creci : '');
+    if (C.fotoCorretor) $('#avatar').innerHTML = '<img src="' + C.fotoCorretor + '" alt="' + C.corretorNome + '" class="h-full w-full object-cover"/>';
+    else $('#avatar').textContent = C.corretorNome.split(' ').map(function (p) { return p[0]; }).slice(0, 2).join('');
+    if (C.instagram) { $('#igLink').href = C.instagram; $('#igLink').classList.remove('hidden'); }
+
+    /* ---------- LIGHTBOX ---------- */
+    var lbList = [], lbI = 0;
+    function lbShow() { var it = lbList[lbI]; $('#lbImg').src = it.src; $('#lbImg').alt = it.cap; $('#lbCap').textContent = it.cap; $('#lbCta').dataset.msg = 'Olá! Vi "' + it.cap + '" no site e quero conhecer o Aurora dos Pássaros pessoalmente.'; $('#lbPrev').style.display = $('#lbNext').style.display = lbList.length > 1 ? '' : 'none'; }
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-lightbox]'); if (!t) return;
+      var grp = t.dataset.group;
+      var nodes = grp ? $$('[data-lightbox][data-group="' + grp + '"]') : [t];
+      lbList = nodes.map(function (n) { return { src: n.dataset.lightbox, cap: n.dataset.cap || '' }; });
+      lbI = Math.max(0, nodes.indexOf(t)); lbShow();
+      $('#lightbox').hidden = false; document.body.style.overflow = 'hidden';
+      track('image_view', { image: t.dataset.cap });
+    });
+    function lbClose() { $('#lightbox').hidden = true; document.body.style.overflow = ''; }
+    $('#lbClose').onclick = lbClose;
+    $('#lbPrev').onclick = function () { lbI = (lbI - 1 + lbList.length) % lbList.length; lbShow(); };
+    $('#lbNext').onclick = function () { lbI = (lbI + 1) % lbList.length; lbShow(); };
+    document.addEventListener('keydown', function (e) { if ($('#lightbox').hidden) return; if (e.key === 'Escape') lbClose(); if (e.key === 'ArrowRight') $('#lbNext').click(); if (e.key === 'ArrowLeft') $('#lbPrev').click(); });
+    var tx = 0; $('#lightbox').addEventListener('touchstart', function (e) { tx = e.touches[0].clientX; }, { passive: true });
+    $('#lightbox').addEventListener('touchend', function (e) { var dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 50) (dx < 0 ? $('#lbNext') : $('#lbPrev')).click(); });
+
+    /* ---------- CONTADORES ---------- */
+    function animateNumber(el, to, dec, dur) {
+      dec = dec || 0; dur = dur || 1600; var sep = el.hasAttribute('data-sep'), t0 = null;
+      function fmt(v) { var s = v.toFixed(dec).replace('.', ','); return sep ? s.replace(/\B(?=(\d{3})+(?!\d))/g, '.') : s; }
+      if (reduce) { el.textContent = fmt(to); return; }
+      (function f(t) { if (!t0) t0 = t; var p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 4); el.textContent = fmt(to * e); if (p < 1) requestAnimationFrame(f); })(performance.now());
+      requestAnimationFrame(function f2(t) {});
+    }
+
+    /* ---------- REVELAÇÃO AO ROLAR ---------- */
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var el = en.target; el.classList.add('in');
+        $$('[data-count]', el).concat(el.hasAttribute('data-count') ? [el] : []).forEach(function (c) {
+          if (c.dataset.done) return; c.dataset.done = 1; animateNumber(c, parseFloat(c.dataset.count), +(c.dataset.dec || 0));
+        });
+        io.unobserve(el);
+      });
+    }, { threshold: .15, rootMargin: '0px 0px -40px 0px' });
+    function observeAll() { $$('[data-reveal]:not(.in), [data-split]:not(.in)').forEach(function (el) { io.observe(el); }); }
+    observeAll();
+    // contadores fora de [data-reveal]
+    $$('[data-count]').forEach(function (c) { if (!c.closest('[data-reveal]')) { c.closest('div').setAttribute('data-reveal', ''); } });
+    observeAll();
+
+    /* ---------- HOLOFOTE NOS CARDS ---------- */
+    document.addEventListener('pointermove', function (e) {
+      var s = e.target.closest('.spot'); if (!s) return;
+      var r = s.getBoundingClientRect(); s.style.setProperty('--mx', (e.clientX - r.left) + 'px'); s.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+    $('#pillars').addEventListener('click', function (e) { var c = e.target.closest('[data-pillar]'); if (!c) return; $$('#pillars .spot').forEach(function (x) { x.classList.toggle('is-active', x === c); }); track('pillar_click', { pillar: c.dataset.pillar }); });
+
+    /* ---------- BOTÕES MAGNÉTICOS (desktop) ---------- */
+    if (window.matchMedia('(hover:hover)').matches && !reduce) {
+      $$('.magnetic').forEach(function (b) {
+        b.addEventListener('pointermove', function (e) { var r = b.getBoundingClientRect(); b.style.transform = 'translate(' + ((e.clientX - r.left - r.width / 2) * .18) + 'px,' + ((e.clientY - r.top - r.height / 2) * .3) + 'px)'; });
+        b.addEventListener('pointerleave', function () { b.style.transform = ''; });
+      });
+    }
+
+    /* ---------- SCROLL: header, progresso, parallax, barra inferior, profundidade ---------- */
+    var depth = {}, ticking = false, para = $('.parallax');
+    function onScroll() {
+      var y = window.scrollY, H = document.documentElement.scrollHeight - innerHeight, p = H > 0 ? y / H : 0;
+      $('#progress').style.transform = 'scaleX(' + p + ')';
+      $('#topbar').classList.toggle('bg-ink-950/80', y > 40); $('#topbar').classList.toggle('backdrop-blur-xl', y > 40); $('#topbar').classList.toggle('border-b', y > 40); $('#topbar').classList.toggle('border-white/5', y > 40);
+      $('#bottombar').classList.toggle('show', y > innerHeight * .55 && p < .985);
+      if (para && !reduce) { var r = para.parentElement.getBoundingClientRect(); if (r.bottom > 0 && r.top < innerHeight) para.style.transform = 'translateY(' + (-(r.top / innerHeight) * 60 - 60) + 'px)'; }
+      [25, 50, 75, 90].forEach(function (m) { if (p * 100 >= m && !depth[m]) { depth[m] = 1; track('scroll_depth', { percent: m }); } });
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+
+    /* ---------- INÍCIO ---------- */
+    setPlan('tipo', true);
+    onScroll();
+    track('landing_view', { landing: 'aurora_dos_passaros' });
+  })();
+  </script>
+</body>
+</html>
